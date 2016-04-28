@@ -2,6 +2,7 @@
 [![Build Status via Travis CI](https://travis-ci.org/tonybranfort/format-time.svg?branch=master)](https://travis-ci.org/tonybranfort/format-time)
 [![Coverage Status](https://coveralls.io/repos/github/tonybranfort/format-time/badge.svg?branch=master)](https://coveralls.io/github/tonybranfort/format-time?branch=master)
 
+
 Return consistently formatted time string given a string of messy time format.
 
 Seeks to mimic Google Calendar online time entry. 
@@ -72,5 +73,3 @@ ft.re.exec('935')[2]      // '35'
 ft.re.exec('935')[3]      // undefined
 
 ```
-
-
