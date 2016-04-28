@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Return consistently formatted time string given a string of messy time format",
   "main": "lib/index.js",
+  "devDependencies": {
+    "mocha": "2.x",
+    "expect.js": "0.3.x",
+    "coveralls": "2.11.x",
+    "istanbul": "0.4.x",
+    "mocha-lcov-reporter": "^1.0.0"
+  },
   "scripts": {
     "test": "make test",
     "cover": "istanbul cover ./node_modules/mocha/bin/_mocha",
@@ -11,10 +18,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/tonybranfort/format-time"
-  },
-  "devDependencies": {
-    "mocha": "2.x",
-    "expect.js": "0.3.x"
   },
   "keywords": [
     "time",
@@ -25,5 +28,10 @@
     "readable"
   ],
   "author": "Tony Branfort",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonybranfort/format-time/issues"
+  },
+  "homepage": "https://github.com/tonybranfort/format-time#readme"
+
 }
